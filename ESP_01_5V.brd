@@ -582,7 +582,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="3.0718125" y="19.796125" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="3.8338125" y="19.796125" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
-<element name="ESP01" library="esp8266modules" package="ESP01" value="ESP01" x="7.8978125" y="9.763125" smashed="yes" rot="MR0"/>
+<element name="MOD1" library="esp8266modules" package="ESP01" value="ESP01" x="7.8978125" y="9.763125" smashed="yes" rot="MR0"/>
 <element name="IC1" library="burr-brown" package="SOT223" value="REG1117" x="7.8184375" y="12.85875" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="14P6981" x="7.8184375" y="12.85875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="REG1117" x="7.8184375" y="12.85875" size="1.778" layer="27" rot="R180" display="off"/>
@@ -647,7 +647,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C6" pad="1"/>
 <contactref element="C5" pad="1"/>
 <contactref element="JP1" pad="1"/>
-<contactref element="ESP01" pad="GND"/>
+<contactref element="MOD1" pad="GND"/>
 <contactref element="JP3" pad="2"/>
 <polygon width="0.4064" layer="16">
 <vertex x="0.5159375" y="24.92375"/>
@@ -669,7 +669,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="IC2" pad="13"/>
 <contactref element="IC2" pad="3"/>
 <contactref element="C5" pad="2"/>
-<contactref element="ESP01" pad="VCC"/>
+<contactref element="MOD1" pad="VCC"/>
 <wire x1="7.62" y1="20.6375" x2="7.62" y2="19.685" width="0.254" layer="1"/>
 <wire x1="7.62" y1="19.685" x2="7.62" y2="18.7325" width="0.254" layer="1"/>
 <wire x1="7.62" y1="18.7325" x2="7.6034375" y2="18.653125" width="0.254" layer="1"/>
@@ -750,7 +750,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$9">
 <contactref element="JP2" pad="3"/>
-<contactref element="ESP01" pad="RST"/>
+<contactref element="MOD1" pad="RST"/>
 <wire x1="8.255" y1="3.175" x2="6.6675" y2="1.5875" width="0.254" layer="16"/>
 <wire x1="9.525" y1="3.175" x2="8.255" y2="3.175" width="0.254" layer="16"/>
 <wire x1="10.795" y1="4.445" x2="9.525" y2="3.175" width="0.254" layer="16"/>
@@ -767,7 +767,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$10">
 <contactref element="IC2" pad="7"/>
-<contactref element="ESP01" pad="RX"/>
+<contactref element="MOD1" pad="RX"/>
 <wire x1="6.6675" y1="5.08" x2="6.6675" y2="7.3025" width="0.254" layer="16"/>
 <wire x1="5.08" y1="5.08" x2="6.6675" y2="5.08" width="0.254" layer="16"/>
 <wire x1="4.1275" y1="4.1275" x2="5.08" y2="5.08" width="0.254" layer="16"/>
@@ -776,7 +776,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$11">
 <contactref element="IC2" pad="2"/>
-<contactref element="ESP01" pad="GPIO2"/>
+<contactref element="MOD1" pad="GPIO2"/>
 <wire x1="9.8425" y1="4.1275" x2="9.8425" y2="7.3025" width="0.254" layer="16"/>
 <wire x1="9.2075" y1="4.1275" x2="9.8425" y2="4.1275" width="0.254" layer="16"/>
 <wire x1="9.8425" y1="7.3025" x2="10.0140625" y2="7.539375" width="0.254" layer="16"/>
@@ -784,7 +784,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$12">
 <contactref element="IC2" pad="4"/>
-<contactref element="ESP01" pad="GPIO0"/>
+<contactref element="MOD1" pad="GPIO0"/>
 <contactref element="JP3" pad="1"/>
 <wire x1="8.5725" y1="5.3975" x2="8.5725" y2="7.3025" width="0.254" layer="16"/>
 <wire x1="7.3025" y1="4.1275" x2="8.5725" y2="5.3975" width="0.254" layer="16"/>
@@ -802,7 +802,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$13">
 <contactref element="IC2" pad="5"/>
-<contactref element="ESP01" pad="TX"/>
+<contactref element="MOD1" pad="TX"/>
 <wire x1="7.9375" y1="5.715" x2="7.9375" y2="7.3025" width="0.254" layer="16"/>
 <wire x1="13.335" y1="5.715" x2="7.9375" y2="5.715" width="0.254" layer="1"/>
 <wire x1="13.335" y1="3.175" x2="13.335" y2="5.715" width="0.254" layer="1"/>
@@ -813,7 +813,7 @@ Please make sure your boards conform to these design rules.</description>
 </signal>
 <signal name="N$14">
 <contactref element="IC2" pad="6"/>
-<contactref element="ESP01" pad="CH_PD"/>
+<contactref element="MOD1" pad="CH_PD"/>
 <wire x1="7.3025" y1="5.08" x2="7.3025" y2="7.3025" width="0.254" layer="16"/>
 <wire x1="7.62" y1="4.7625" x2="7.3025" y2="5.08" width="0.254" layer="1"/>
 <wire x1="7.62" y1="3.4925" x2="7.62" y2="4.7625" width="0.254" layer="1"/>
